@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sleep 600
+sleep 1200
