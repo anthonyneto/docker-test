@@ -1,4 +1,4 @@
-name: ci
+name: docker
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - 'master'
 
 jobs:
-  docker:
+  autobuild:
     runs-on: ubuntu-latest
     steps:
       - name: Set up QEMU
